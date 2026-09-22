@@ -1,0 +1,35 @@
+[
+  {
+    "id": "enq-1790093201515-j9nrj",
+    "bookingReference": "ADY-2026-3014",
+    "name": "Pooja Verma",
+    "email": "pooja@test.com",
+    "phone": "+919876543210",
+    "travelDate": "2026-12-10",
+    "duration": "5 Nights / 6 Days",
+    "adults": 2,
+    "children": 0,
+    "packageName": "Classic Andaman Island Trio",
+    "activities": [],
+    "hotelCategory": "Standard 3-Star Deluxe",
+    "specialRequests": "",
+    "tripType": "Leisure",
+    "status": "Pending",
+    "createdAt": "2026-09-22T16:06:41.515Z"
+  },
+  {
+    "id": "enq-sample-1",
+    "bookingReference": "ADY-2026-8492",
+    "name": "Dr. Vikram Sharma",
+    "email": "vikram.sharma@example.com",
+    "phone": "+91 98201 54321",
+    "travelDate": "2026-11-15",
+    "duration": "5 Nights / 6 Days",
+    "adults": 2,
+    "children": 0,
+    "packageName": "Romantic Andaman Honeymoon",
+    "hotelCategory": "Luxury Beachfront Resort",
+    "status": "Confirmed",
+    "createdAt": "2026-09-20T16:06:34.483Z"
+  }
+]
