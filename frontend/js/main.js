@@ -2,8 +2,8 @@
 // ANDAMAN DREAM YATRA - shared front-end behaviour
 // =========================================================
 
-// ---- API base: change if backend runs on a different host ----
-const API_BASE = window.ADY_API_BASE || 'http://localhost:5000';
+// ---- API base: empty string for production (same domain), localhost for dev ----
+const API_BASE = window.ADY_API_BASE || (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' ? 'http://localhost:5000' : '');
 
 document.addEventListener('DOMContentLoaded', () => {
   initNavToggle();
