@@ -1,0 +1,33 @@
+/* Month mood widget + falling-particle effects */
+.fx-layer{position:fixed; inset:0; pointer-events:none; overflow:hidden; z-index:9990;}
+.fx-p{position:absolute; top:-8vh; will-change:transform,opacity; user-select:none; line-height:1;
+  animation-name:fx-fall; animation-timing-function:linear; animation-iteration-count:infinite;}
+@keyframes fx-fall{
+  0%{transform:translate3d(0,-8vh,0) rotate(0deg); opacity:0;}
+  8%{opacity:var(--o,.9);}
+  50%{transform:translate3d(var(--sway,30px),55vh,0) rotate(calc(var(--spin,180deg)/2));}
+  92%{opacity:var(--o,.9);}
+  100%{transform:translate3d(calc(var(--sway,30px) * -1),108vh,0) rotate(var(--spin,360deg)); opacity:0;}
+}
+.fx-rain{width:2px; height:18px; background:linear-gradient(to bottom,rgba(255,255,255,0),rgba(190,225,240,.85)); border-radius:2px;
+  animation-name:fx-rain;}
+@keyframes fx-rain{
+  0%{transform:translate3d(0,-10vh,0); opacity:0;}
+  10%{opacity:.8;}
+  100%{transform:translate3d(-40px,110vh,0); opacity:.6;}
+}
+.fx-rise{top:auto; bottom:-6vh; animation-name:fx-rise;}
+@keyframes fx-rise{
+  0%{transform:translate3d(0,0,0) scale(.6); opacity:0;}
+  15%{opacity:var(--o,.9);}
+  100%{transform:translate3d(var(--sway,30px),-105vh,0) scale(1.1); opacity:0;}
+}
+
+
+/* Clickable month cards in "Best time to visit" */
+.month-card[data-fx]{cursor:pointer; transition:transform .2s, box-shadow .2s, outline-color .2s; outline:2px solid transparent;}
+.month-card[data-fx]:focus-visible{outline-color:var(--turquoise);}
+.month-card.fx-active{outline:2px solid var(--ocean-deep); box-shadow:0 16px 30px rgba(11,79,108,.22);}
+.month-card .fx-icon{margin-left:6px; font-size:1rem;}
+.month-hint{text-align:center; font-size:.85rem; color:var(--ink-soft); margin:-8px 0 22px;}
+@media (prefers-reduced-motion: reduce){ .fx-layer{display:none;} }
