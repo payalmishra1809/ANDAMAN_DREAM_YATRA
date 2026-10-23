@@ -168,7 +168,7 @@ DESTINATIONS = [
     dict(
         slug="neil-island",
         region="south", region_label="South Andaman",
-        title="Neil Island (Shaheed Dweep)",
+        title="Neil Island / Shaheed Dweep",
         description="History, geology and travel tips for Neil Island (Shaheed Dweep) - Andaman's laid-back coral island with Natural Bridge and Bharatpur Beach.",
         hero="https://images.unsplash.com/photo-1589197331516-4d84b72ebde3?q=80&w=1600&auto=format&fit=crop",
         lead="Smaller and quieter than its neighbour Havelock, Neil Island trades big resorts for coconut groves, vegetable fields and some of the most easily accessible coral reefs in the archipelago.",
@@ -195,7 +195,7 @@ DESTINATIONS = [
     dict(
         slug="havelock-island",
         region="south", region_label="South Andaman",
-        title="Havelock Island (Swaraj Dweep)",
+        title="Havelock Island / Swaraj Dweep",
         description="History and travel guide to Havelock Island (Swaraj Dweep), home to Radhanagar Beach and the Andamans' main scuba diving hub.",
         hero="https://images.unsplash.com/photo-1583212292454-1fe6229603b7?q=80&w=1600&auto=format&fit=crop",
         lead="Havelock - officially renamed Swaraj Dweep in 2018 - is the Andamans' best-known island, built almost entirely around one extraordinary stretch of sand: Radhanagar Beach.",
@@ -350,18 +350,18 @@ DESTINATIONS = [
             "Ideal for": "A roadside break, picnics",
         },
         tip="Facilities are basic to none - this is a stop for travellers already road-tripping through Middle Andaman, best combined with Baratang or Rangat sightseeing rather than visited on its own.",
-        related=[("baratang-island", "Baratang Island"), ("morice-dera-beach", "Morice Dera Beach")],
+        related=[("baratang-island", "Baratang Island"), ("morich-dera-beach", "Morich Dera Beach")],
     ),
     dict(
-        slug="morice-dera-beach",
+        slug="morich-dera-beach",
         region="middle", region_label="Middle Andaman",
-        title="Morice Dera Beach",
+        title="Morich Dera Beach",
         description="Untouched coastline near Rangat, Middle Andaman - a road-less-travelled beach stop.",
         hero="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop",
-        lead="Near Rangat - Middle Andaman's main town - Morice Dera is one of the region's least developed stretches of coast.",
+        lead="Near Rangat - Middle Andaman's main town - Morich Dera is one of the region's least developed stretches of coast.",
         body=[
-            "Rangat itself grew as a settlement point during post-independence resettlement of the islands and today functions mainly as a transit town for travellers heading further north to Mayabunder and Diglipur. Morice Dera, a short distance from the town centre, offers an unspoiled, mostly empty beach with forest running close to the shoreline.",
-            "There isn't much organised activity here - it's a place for a walk, a swim if conditions allow, or simply a quiet break from travel. Visitors going all the way to North Andaman for Saddle Peak or Ross & Smith Island often stop through Rangat overnight, making Morice Dera a convenient add-on.",
+            "Rangat itself grew as a settlement point during post-independence resettlement of the islands and today functions mainly as a transit town for travellers heading further north to Mayabunder and Diglipur. Morich Dera, a short distance from the town centre, offers an unspoiled, mostly empty beach with forest running close to the shoreline.",
+            "There isn't much organised activity here - it's a place for a walk, a swim if conditions allow, or simply a quiet break from travel. Visitors going all the way to North Andaman for Saddle Peak or Ross & Smith Island often stop through Rangat overnight, making Morich Dera a convenient add-on.",
         ],
         gallery=[
             "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop",
